@@ -1,0 +1,12 @@
+Entidades:
+- edificio: Se definió porque no puede haber un curso sin un lugar, por eso tiene una relaciòn fuerte
+y un edifico puede tener muchos cursos
+  
+- curso: las relaciones se hicieron así porque un curso debe tener asignaturas, estudiantes y profesores.
+  las cardinalidades fueron hechas de ese modo porque un curso puede tener de 1 a más profesores, estudiantes y asignaturas
+
+- profesor: La entidad profesor se hizo porque es necesario para que el curso pueda existir y guardar los datos de los profesores, pero un curso puede tener más de un curso
+  
+- Estudiante: se hizo para almacenar la información y organizar donde está cada estudiante 
+
+- Asignatura: La asignatura es la que contiene la información de lo que se verá en el curso, por ende, un curso puede tener muchas asignaturas
